@@ -1,0 +1,7 @@
+INSERT INTO [Discount] ([discount_id], [discount_value], [start_date], [end_date], [limit], [active], [discount_name], [isDeleted]) VALUES (1, 0.100000001490116, '2023-11-10', '2023-11-30', 1000, '1', 'Discount 1', '0'); GO
+INSERT INTO [Discount] ([discount_id], [discount_value], [start_date], [end_date], [limit], [active], [discount_name], [isDeleted]) VALUES (2, 0, '1900-01-01', '1900-01-01', 100, '1', 'Default Discount', '0'); GO
+INSERT INTO [Discount] ([discount_id], [discount_value], [start_date], [end_date], [limit], [active], [discount_name], [isDeleted]) VALUES (3, 0.200000002980232, '2023-11-10', '2023-11-11', 1000, '0', 'Discount 2', '0'); GO
+INSERT INTO [Discount] ([discount_id], [discount_value], [start_date], [end_date], [limit], [active], [discount_name], [isDeleted]) VALUES (4, 0.100000001490116, '2023-11-17', '2023-11-18', 1000, '0', 'Test Discount', '0'); GO
+INSERT INTO [Discount] ([discount_id], [discount_value], [start_date], [end_date], [limit], [active], [discount_name], [isDeleted]) VALUES (5, 0.200000002980232, '2023-11-17', '2023-11-18', 1000, '0', 'Test Discount 1', '0'); GO
+INSERT INTO [Discount] ([discount_id], [discount_value], [start_date], [end_date], [limit], [active], [discount_name], [isDeleted]) VALUES (6, 0.200000002980232, '2023-11-17', '2023-11-18', 1000, '0', 'Test Discount 2', '1'); GO
+INSERT INTO [Discount] ([discount_id], [discount_value], [start_date], [end_date], [limit], [active], [discount_name], [isDeleted]) VALUES (7, 0.100000001490116, '2023-11-17', '2023-11-24', 1000, '0', 'Test Discount 123', '1'); GO
